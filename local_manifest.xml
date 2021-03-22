@@ -83,4 +83,7 @@
 
   <project name="tiger-cave/packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="android-11.0" />
   <project name="tiger-cave/vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="github" revision="android-11.0" />
+  
+  <remove-project name="platform/bionic"/>
+  <project name="tiger-cave/bionic" path="bionic" remote="github" revision="android-11.0" />
 </manifest>
